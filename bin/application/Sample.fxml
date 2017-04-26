@@ -31,7 +31,7 @@
         </menus>
       </MenuBar>
       <Button fx:id="ShowMetar" layoutX="14.0" layoutY="80.0" mnemonicParsing="false" onAction="#getMetarFromServer" text="Show METAR" />
-      <TextField layoutX="14.0" layoutY="45.0" promptText="ICAO-Code" />
+      <TextField fx:id="AirportCodeIcao" layoutX="14.0" layoutY="45.0" promptText="ICAO-Code" />
       <TextArea fx:id="ActualMetar" layoutX="14.0" layoutY="131.0" prefHeight="69.0" prefWidth="333.0" />
       <Label layoutX="14.0" layoutY="114.0" text="Actual METAR" />
    </children>
