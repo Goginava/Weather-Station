@@ -10,4 +10,4 @@ on one of the two buttons. The weather data is live and from NOAA.
 
 last edit: 28.04.2017
 info@david-goginava.de
-Homepage: david-goginava.de
+Homepage: www.david-goginava.de
