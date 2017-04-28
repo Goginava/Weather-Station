@@ -1,7 +1,7 @@
-# Goginava-GUI-Presentation
+# ICAO-Weather-Station
 
 ICAO Weather Station
-Copyright 2017 under GNU GENERAL PUBLIC LICENSE Version 3
+Copyright 2017 under GNU GENERAL PUBLIC LICENSE Version 3 (Open Source)
 
 The tool is offered for aviation specialists who want to recieve a raw or decoded METAR weather report.
 
