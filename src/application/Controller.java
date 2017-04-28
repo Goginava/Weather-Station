@@ -88,7 +88,7 @@ public class Controller {
 		try {
 			Stage aboutStage = new Stage();
 			Parent root = FXMLLoader.load(getClass().getResource("About.fxml"));
-			Scene aboutScene = new Scene(root,300,200);
+			Scene aboutScene = new Scene(root,300,300);
 			//aboutScene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			aboutStage.setScene(aboutScene);
 			aboutStage.setTitle("About");
