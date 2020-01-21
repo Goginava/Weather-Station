@@ -8,7 +8,7 @@ The tool is offered for aviation specialists who want to recieve a raw or decode
 In order to receive weather information enter an ICAO Airport Code (4 digits), e.g. KJFK for Kennedy International Airport and click
 on one of the two buttons. The weather data is live and from NOAA.
 
-last edit: 28.04.2017
+last edit: 28.04.2019
 info@goginava-aviation.com
 Homepage: https://goginava-aviation.com/a320-app/
 
