@@ -1,4 +1,6 @@
-# ICAO-Weather-Station
+# Weather-Station
+
+Weather Station for Aviation
 
 ICAO Weather Station
 Copyright 2017-2020 under GNU GENERAL PUBLIC LICENSE Version 3 (Open Source)
