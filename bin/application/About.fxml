@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="300.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.ControllerAboutScene">
+   <children>
+      <Label layoutX="14.0" layoutY="14.0" text="ICAO Weather Station - David Goginava">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="40.0" text="Copyright 2017">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextArea editable="false" layoutX="14.0" layoutY="78.0" prefHeight="44.0" prefWidth="247.0" text="ICAO Weather Station, published under GNU General Public License v3.0" wrapText="true" />
+      <Hyperlink fx:id="homepageLink" layoutX="14.0" layoutY="132.0" onAction="#homepageLinkClicked" text="Homepage - david-goginava.de" />
+      <Hyperlink fx:id="cloudIconLink" layoutX="14.0" layoutY="209.0" onAction="#cloudIconLinkClicked" text="Cloud lightning icon credits" />
+      <Hyperlink fx:id="licenseLink" layoutX="14.0" layoutY="155.0" onAction="#licenseLinkClicked" text="GNU v3 License (Open Source)" />
+      <Label layoutX="18.0" layoutY="192.0" text="Used Resources:" />
+      <Label layoutX="16.0" layoutY="232.0" text="Java FX, Gluon Scene Builder" />
+   </children>
+</AnchorPane>
