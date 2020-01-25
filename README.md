@@ -13,4 +13,4 @@ on one of the two buttons. The weather data is live and from NOAA.
 info@goginava-aviation.com
 Homepage: https://goginava-aviation.com/a320-app/
 
-TODO: remove bug which is leading to the effect that the weather is not displayed, anymore. 
+UPDATE: Fixed bug which is leading to the effect that the weather is not displayed.
