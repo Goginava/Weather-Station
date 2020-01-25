@@ -15,7 +15,7 @@ public class Metar {
 		if (icao.equals("")) return "Please enter an airport ICAO code!";
 		
 		try {
-			URL myConnection = new URL("http://tgftp.nws.noaa.gov/data/observations/metar/stations/"+icao+".TXT");
+			URL myConnection = new URL("https://tgftp.nws.noaa.gov/data/observations/metar/stations/"+icao+".TXT");
 			URLConnection connectMe = myConnection.openConnection();
 			          
 			InputStreamReader lineReader = new InputStreamReader(connectMe.getInputStream());
@@ -49,7 +49,7 @@ public class Metar {
 		if (icao.equals("")) return "Please enter an airport ICAO code!";
 		
 		try {
-			URL myConnection = new URL("http://tgftp.nws.noaa.gov/data/observations/metar/decoded/"+icao+".TXT");
+			URL myConnection = new URL("https://tgftp.nws.noaa.gov/data/observations/metar/decoded/"+icao+".TXT");
 			URLConnection connectMe = myConnection.openConnection();
 			          
 			InputStreamReader lineReader = new InputStreamReader(connectMe.getInputStream());
