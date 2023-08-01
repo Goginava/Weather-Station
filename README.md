@@ -11,6 +11,5 @@ In order to receive weather information enter an ICAO Airport Code (4 digits), e
 on one of the two buttons. The weather data is live and from NOAA.
 
 info@goginava-aviation.com
-Homepage: https://goginava-aviation.com/a320-app/
 
 UPDATE: Fixed bug which is leading to the effect that the weather is not displayed.
